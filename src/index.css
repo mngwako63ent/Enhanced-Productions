@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
+@import 'swiper/css/pagination';
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-green: #00b140;
+  --color-secondary-green: #8cc63f;
+  --color-accent-yellow: #ffce34;
+}
+
+body {
+  background: radial-gradient(circle at center, #2d3420 0%, #000000 100%);
+  color: white;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
